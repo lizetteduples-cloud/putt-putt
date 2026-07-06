@@ -1,0 +1,36 @@
+Create a Putt-Putt app for Android and Apple.
+
+What I want.
+Fun, Bright Colour App
+9–30 holes — stepper plus quick chips (Quick 9, Classic 18, Marathon 27, Full 30 🔥)
+Unlimited players — auto-assigned colours and emojis (tap the emoji or colour dot to change)
+Hole-by-hole scoring with big +/− buttons, a live leaderboard, and a full scorecard table
+Hole-in-one = sparkle explosion + ⭐ ACE badge 🎉
+Rules built in — the 📖 button covers the classics: lowest score wins, "honours" tees off first, the 6-stroke limit (pick up and take a 7), one putter-head from the wall, penalty stroke if the ball leaves the course, and tie-breaks by most holes-in-one
+💾 Auto-save mid-game — every tap is saved, so if the browser closes or refreshes, the app picks up exactly where you left off ("Welcome back!")
+📜 Game history — every finished round is saved with the date, holes, and final scores. Tap any past game to see its full scorecard
+🏆 Family stats — per player, all-time: games played, wins, best round (e.g. "38/18"), and total holes-in-one ⭐
+⚡ Quick add regulars — the app remembers everyone who's played, so next game you just tap their name chip and they come back with their own emoji and colour
+🗑️ Clear history button if you ever want a fresh start (with a "are you sure?" check)
+
+🏆 The winner gets:
+A big full-screen "CHAMPION!" announcement in gold and pink
+Fireworks 🎆🎇 bursting across the whole screen, non-stop
+Champagne bottles 🍾🥂 wiggling like they're about to pop, with bubbles 🫧✨ rising through the winner's card
+Their name in their own colour, final score, and ⭐ ace count
+
+😭 Last place gets:
+The Wooden Spoon 🥄 award (classic!)
+Tears and tissues 💧🧻 raining down over their card
+"…shame man 💔" with a gentle "Tissues ready 🧻 — there's always the rematch! 💪" so nobody sulks too hard 😄
+
+Tied winners → "CHAMPIONS!" with both names 🥂
+Everyone tied or playing solo → tissues section hides itself (no crying alone!)
+Tap 🎊 See the full results and it closes with one last confetti blast, landing on the podium screen
+
+The fireworks keep going until you close the announcement — so let the winner soak it up properly before moving on 😆⛳🩷
+
+📸 Share button — turn the final podium into an image for the family WhatsApp group
+🏅 Fun awards at the end: "Most 7s 😅", "Comeback of the Day", "Windmill Victim"
+💰 Per-hole stakes mode — winner of each hole earns a point ("skins"), nice for adults
+🕳️ Par per hole — let the course owner set pars so you can show over/under like real golf

@@ -1,0 +1,20 @@
+{
+  "name": "putt-putt",
+  "version": "1.0.0",
+  "description": "Putt-Putt! — family putt-putt scorecard app",
+  "private": true,
+  "scripts": {
+    "copy-web": "node -e \"require('fs').mkdirSync('www',{recursive:true}); require('fs').copyFileSync('putt-putt.html','www/index.html')\"",
+    "sync": "npm run copy-web && npx cap sync android",
+    "android": "npm run sync && npx cap open android",
+    "release": "npm run sync && cd android && set \"JAVA_HOME=C:\\Program Files\\Android\\Android Studio\\jbr\" && gradlew.bat bundleRelease assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/core": "^8.4.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.4.1"
+  }
+}
+

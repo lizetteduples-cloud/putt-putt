@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Putt-Putt!</string>
+    <string name="title_activity_main">Putt-Putt!</string>
+    <string name="package_name">za.co.vvd.puttputt</string>
+    <string name="custom_url_scheme">za.co.vvd.puttputt</string>
+</resources>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0; padding:0; box-sizing:border-box;}
+body{
+  width:1024px; height:500px; overflow:hidden; position:relative;
+  font-family:'Quicksand',sans-serif;
+  background:
+    radial-gradient(700px 420px at 8% -10%, rgba(61,220,151,.35), transparent 60%),
+    radial-gradient(640px 400px at 100% 8%, rgba(255,200,50,.38), transparent 60%),
+    radial-gradient(560px 360px at 55% 115%, rgba(255,107,53,.22), transparent 60%),
+    linear-gradient(160deg, #c9f0ff 0%, #d9f6ff 45%, #dff7d8 100%);
+  display:flex; align-items:center; gap:56px; padding:0 70px;
+}
+.icon{
+  width:280px; height:280px; border-radius:64px; flex-shrink:0;
+  border:6px solid #fff; box-shadow:0 24px 60px rgba(15,106,158,.35);
+  transform:rotate(-5deg);
+}
+h1{
+  font-family:'Fredoka',sans-serif; font-weight:700; font-size:92px; line-height:1.05;
+  background:linear-gradient(90deg,#e8501d,#0f6a9e);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+}
+.tag{margin-top:10px; font-size:26px; font-weight:700; color:#173a56; white-space:nowrap;}
+.chips{display:flex; gap:14px; margin-top:26px; flex-wrap:wrap;}
+.chip{
+  font-family:'Fredoka',sans-serif; font-weight:600; font-size:22px; color:#0f6a9e;
+  background:rgba(255,255,255,.85); border:3px solid #7cccf7; border-radius:99px; padding:10px 22px;
+  box-shadow:0 8px 20px rgba(15,106,158,.18);
+}
+.spark{position:absolute; opacity:.75;}
+</style>
+</head>
+<body>
+  <img class="icon" src="../assets/icon-only.png" alt=""/>
+  <div>
+    <h1>Putt-Putt!</h1>
+    <div class="tag">The fun family mini golf scorecard ⛳</div>
+    <div class="chips">
+      <div class="chip">🏆 Live leaderboard</div>
+      <div class="chip">🎆 Fireworks</div>
+      <div class="chip">🥄 Wooden Spoon</div>
+    </div>
+  </div>
+  <div class="spark" style="top:36px; left:420px; font-size:40px;">✨</div>
+  <div class="spark" style="top:70px; right:60px; font-size:52px;">🌈</div>
+  <div class="spark" style="bottom:44px; right:150px; font-size:38px;">⭐</div>
+  <div class="spark" style="bottom:30px; left:390px; font-size:34px;">🎈</div>
+  <div class="spark" style="top:24px; left:60px; font-size:36px;">🎉</div>
+</body>
+</html>
