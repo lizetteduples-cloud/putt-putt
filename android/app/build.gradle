@@ -10,10 +10,10 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "za.co.vvd.puttputt"
+    namespace = "com.Liz.puttputtscorecard"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "za.co.vvd.puttputt"
+        applicationId "com.Liz.puttputtscorecard"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

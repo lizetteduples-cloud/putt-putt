@@ -1,4 +1,4 @@
-package za.co.vvd.puttputt;
+package com.Liz.puttputtscorecard;
 
 import com.getcapacitor.BridgeActivity;
 
