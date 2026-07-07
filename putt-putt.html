@@ -658,11 +658,6 @@ function bump(i, d, ev){
   p.scores[currentHole] = s;
   renderGame();
   saveLive();
-  if(s === 1 && d > 0){
-    const r = ev?.target?.getBoundingClientRect();
-    lizBurst(r ? r.left : null, r ? r.top : null, ["⭐","🎉","🌈","🏆","✨"]);
-    toast(`⭐ HOLE-IN-ONE for ${p.name}! Legend! 🎉`);
-  }
 }
 
 function total(p){ return p.scores.reduce((a,b)=>a+(b||0),0); }
